@@ -323,7 +323,7 @@ Enter the menu number :'''
             elif from_unit == 'kg' and to_unit == 'g':
                 print(value * 1000,"g")
             elif from_unit == 'g' and to_unit == 'kg':
-                print(value / 10000,"kg")
+                print(value / 1000,"kg")
             else:
                 print("Invalid conversion")
                       
